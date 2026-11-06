@@ -60,7 +60,7 @@ h1 {
 
   background: #252525;
   color: white;
-
+  
 
   cursor: pointer;
   z-index: 2;
@@ -158,7 +158,7 @@ h1 {
 
 /* Mantém os símbolos retos dentro dos botões girados. */
 #opcoes a span {
-  font-size: 24px;
+  font-size: 30px;
   transform: rotate(-45deg);
 }
 
@@ -176,6 +176,7 @@ h1 {
 #opcoes a:focus-visible {
   outline: 2px solid white;
   outline-offset: 5px;
+  box-shadow: 0 0 25px white;
 }
 
 
